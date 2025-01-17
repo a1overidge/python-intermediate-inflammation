@@ -66,6 +66,7 @@ def test_daily_standard_deviation(data, expected_standard_deviation):
     result_data = s_dev(data)['standard deviation']
     npt.assert_approx_equal(result_data, expected_standard_deviation)
 
+    
 def test_daily_min():
     """Test that min function works for an array of positive and negative integers."""
 
